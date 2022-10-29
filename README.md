@@ -15,3 +15,5 @@ docker run -it -p 3000:3000 jamesbrown/docker-react-app
 
 ### Build image (gets default dockerfile)
 docker build -t jamesbrown/docker-react-app .
+
+docker run -p 3000:80 jamesbrown/docker-react-app
